@@ -1,0 +1,2 @@
+Player = Kyrylo, Mikola Kiriienko, Kiriienko / Score = 15
+total of all scores = 15
