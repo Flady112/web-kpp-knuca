@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap');
+
+body{
+    width: 100%;
+    font-size:100%;
+    font-family: 'Roboto', 'Sofia Sans', sans-serif;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1280px;
+}
+header{
+    padding-top: 32px;
+    padding-bottom: 35px;
+    width: 100%;
+    text-align: center;
+}
+nav{
+    display:flex;
+    justify-content: center;
+    gap: 60px;
+}
+a.menu-link{
+    text-decoration: none;
+    color: #26a68d;
+    font-size:18px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+.main-image{
+    width: 100%;
+    height: auto;
+}
+.text-wrapper{
+    background-color: #f5f6f7;
+    text-align: center;
+    padding-top:50px;
+    padding-bottom:90px;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+}
+.text-wrapper h1{
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.text-wrapper p{
+    font-size: 18px;
+    margin-bottom: 30px;
+    width: 1060px;
+    margin-left: auto;
+    margin-right: auto;
+    hyphens: auto;
+}
+.button-link{
+    display: inline-block;
+
+    padding: 10px 20px;
+    background-color: #26a68d;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.button-link:hover{
+    background-color: #1e8c72;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-link{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.footer-link a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+p.copyright{
+    font-weight: bold;
+    margin: 0;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    padding: 45px 0;
+}
+.separator{
+    color: #000000;
+    font-size: 18px;
+}
