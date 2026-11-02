@@ -10,16 +10,19 @@ unlink($outputFile);
 $total = 0;
 foreach ($files as $file) {
     $lines = file($file, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
-    $firstName = $lines[0];
-    $lastName = $lines[1];
-    $scoreString = $lines[2];
-    $score = intval($scoreString);
+    $lines_count = count($lines);
+    for ($i = 0; $i < $lines_count; $i = $i + 3) {
+        $firstName = $lines[$i];
+        $lastName = $lines[$i + 1];
+        $scoreString = $lines[$i + 2];
+        $score = intval($scoreString);
 
-    $outputFileHandle = fopen($outputFile,"a");
-    fwrite($outputFileHandle, "Player = $firstName $lastName / Score = $score\n");
-    fclose($outputFileHandle);
+        $outputFileHandle = fopen($outputFile,"a");
+        fwrite($outputFileHandle, "Player = $firstName $lastName / Score = $score\n");
+        fclose($outputFileHandle);
 
-    $total += $score;
+        $total += $score;
+    }
 }
 
 $outputFileHandle = fopen($outputFile, 'a');
