@@ -1,7 +1,6 @@
-Player = Kyrylo Kiriienko / Score = 24
-Player = Taras Shevchenko / Score = 26
-Player = Lesya Ukrainka / Score = 31
-Player = Ivan Franko / Score = 19
-Player = Bohdan Khmelnytskyi / Score = 22
-Player = Volodymyr Vernadsky / Score = 25
-total of all scores = 147
+Player = Kyrylo Kiriienko 24 Taras Shevchenko 26 Lesya / Score = 0
+Player = 31 Ivan / Score = 0
+Player = 19 Bohdan / Score = 0
+Player = 22 Volodymyr / Score = 0
+Player = 25  / Score = 0
+total of all scores = 0
